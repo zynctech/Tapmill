@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61F6AF0B731B67F6C72186D2 /* Pods_Tapmill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4EB7F5C739311216B081F6 /* Pods_Tapmill.framework */; };
+		8B2CD223229C1731001C132C /* GameTutorialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CD222229C1731001C132C /* GameTutorialScene.swift */; };
 		8B3D3D672298E8900043B8FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3D3D662298E8900043B8FE /* AppDelegate.swift */; };
 		8B3D3D692298E8900043B8FE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D682298E8900043B8FE /* GameScene.sks */; };
 		8B3D3D6B2298E8900043B8FE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D6A2298E8900043B8FE /* Actions.sks */; };
@@ -15,9 +17,29 @@
 		8B3D3D722298E8900043B8FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D702298E8900043B8FE /* Main.storyboard */; };
 		8B3D3D742298E8910043B8FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D732298E8910043B8FE /* Assets.xcassets */; };
 		8B3D3D772298E8910043B8FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D752298E8910043B8FE /* LaunchScreen.storyboard */; };
+		8B3D3D802298E8B50043B8FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3D3D7F2298E8B50043B8FE /* AVFoundation.framework */; };
+		8B3D3D842298E8FA0043B8FE /* PixelSplitter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D832298E8FA0043B8FE /* PixelSplitter-Bold.ttf */; };
+		8B3D3D902298E92C0043B8FE /* successSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D882298E92C0043B8FE /* successSound.wav */; };
+		8B3D3D922298E92C0043B8FE /* gameOverSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D8A2298E92C0043B8FE /* gameOverSound.wav */; };
+		8B3D3D932298E92C0043B8FE /* footstepSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D8B2298E92C0043B8FE /* footstepSound.wav */; };
+		8B3D3D942298E92C0043B8FE /* popUpSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D8C2298E92C0043B8FE /* popUpSound.m4a */; };
+		8B3D3D962298ECD60043B8FE /* LoadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3D3D952298ECD60043B8FE /* LoadScreen.swift */; };
+		8B3D3D982298ED180043B8FE /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3D3D972298ED180043B8FE /* MainMenuScene.swift */; };
+		8B3D3D9C2298ED540043B8FE /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3D3D9B2298ED540043B8FE /* GameOverScene.swift */; };
+		8B3D3D9E2298EF980043B8FE /* buttonPressSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D9D2298EF980043B8FE /* buttonPressSound.wav */; };
+		8B3D3DA02298F3200043B8FE /* thunderShortIntro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3D9F2298F3200043B8FE /* thunderShortIntro.mp3 */; };
+		8B3D3DA42298F6520043B8FE /* treadmillEngineSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3DA22298F6520043B8FE /* treadmillEngineSound.mp3 */; };
+		8B3D3DA62298F7CE0043B8FE /* swoosh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3DA52298F7CE0043B8FE /* swoosh.wav */; };
+		8B3D3DAA2298FD2E0043B8FE /* errorSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B3D3DA92298FD2D0043B8FE /* errorSound.wav */; };
+		8B942B0A22A6BE7B0056B4BA /* explosionSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B942B0922A6BE7B0056B4BA /* explosionSound.wav */; };
+		8BCFDF7F22AABB8C0038A90A /* talkingBlaBla.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFDF7E22AABB8C0038A90A /* talkingBlaBla.wav */; };
+		8BFC039622AD6AD2002B0736 /* MainMenuAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC039522AD6AD2002B0736 /* MainMenuAmbience.wav */; };
+		8BFC039822AD6AD7002B0736 /* GameOverAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC039722AD6AD7002B0736 /* GameOverAmbience.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E4EB7F5C739311216B081F6 /* Pods_Tapmill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapmill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2CD222229C1731001C132C /* GameTutorialScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTutorialScene.swift; sourceTree = "<group>"; };
 		8B3D3D632298E8900043B8FE /* Tapmill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tapmill.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3D3D662298E8900043B8FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B3D3D682298E8900043B8FE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +50,26 @@
 		8B3D3D732298E8910043B8FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B3D3D762298E8910043B8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B3D3D782298E8910043B8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3D3D7F2298E8B50043B8FE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8B3D3D832298E8FA0043B8FE /* PixelSplitter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelSplitter-Bold.ttf"; sourceTree = "<group>"; };
+		8B3D3D882298E92C0043B8FE /* successSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = successSound.wav; sourceTree = "<group>"; };
+		8B3D3D8A2298E92C0043B8FE /* gameOverSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gameOverSound.wav; sourceTree = "<group>"; };
+		8B3D3D8B2298E92C0043B8FE /* footstepSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = footstepSound.wav; sourceTree = "<group>"; };
+		8B3D3D8C2298E92C0043B8FE /* popUpSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = popUpSound.m4a; sourceTree = "<group>"; };
+		8B3D3D952298ECD60043B8FE /* LoadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadScreen.swift; sourceTree = "<group>"; };
+		8B3D3D972298ED180043B8FE /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		8B3D3D9B2298ED540043B8FE /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		8B3D3D9D2298EF980043B8FE /* buttonPressSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buttonPressSound.wav; sourceTree = "<group>"; };
+		8B3D3D9F2298F3200043B8FE /* thunderShortIntro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunderShortIntro.mp3; sourceTree = "<group>"; };
+		8B3D3DA22298F6520043B8FE /* treadmillEngineSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = treadmillEngineSound.mp3; sourceTree = "<group>"; };
+		8B3D3DA52298F7CE0043B8FE /* swoosh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swoosh.wav; sourceTree = "<group>"; };
+		8B3D3DA92298FD2D0043B8FE /* errorSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = errorSound.wav; sourceTree = "<group>"; };
+		8B942B0922A6BE7B0056B4BA /* explosionSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosionSound.wav; sourceTree = "<group>"; };
+		8BCFDF7E22AABB8C0038A90A /* talkingBlaBla.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = talkingBlaBla.wav; sourceTree = "<group>"; };
+		8BFC039522AD6AD2002B0736 /* MainMenuAmbience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MainMenuAmbience.wav; sourceTree = "<group>"; };
+		8BFC039722AD6AD7002B0736 /* GameOverAmbience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOverAmbience.wav; sourceTree = "<group>"; };
+		E2DF2C74B7012CC4D46A92C9 /* Pods-Tapmill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapmill.release.xcconfig"; path = "Target Support Files/Pods-Tapmill/Pods-Tapmill.release.xcconfig"; sourceTree = "<group>"; };
+		FA08476DFA00D914CB1F9498 /* Pods-Tapmill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapmill.debug.xcconfig"; path = "Target Support Files/Pods-Tapmill/Pods-Tapmill.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3D3D802298E8B50043B8FE /* AVFoundation.framework in Frameworks */,
+				61F6AF0B731B67F6C72186D2 /* Pods_Tapmill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +90,8 @@
 			children = (
 				8B3D3D652298E8900043B8FE /* Tapmill */,
 				8B3D3D642298E8900043B8FE /* Products */,
+				8B3D3D7E2298E8B50043B8FE /* Frameworks */,
+				C1A19B77F2324C6ABFB52C7B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,16 +107,68 @@
 			isa = PBXGroup;
 			children = (
 				8B3D3D662298E8900043B8FE /* AppDelegate.swift */,
-				8B3D3D682298E8900043B8FE /* GameScene.sks */,
-				8B3D3D6A2298E8900043B8FE /* Actions.sks */,
-				8B3D3D6C2298E8900043B8FE /* GameScene.swift */,
 				8B3D3D6E2298E8900043B8FE /* GameViewController.swift */,
-				8B3D3D702298E8900043B8FE /* Main.storyboard */,
+				8B3D3D952298ECD60043B8FE /* LoadScreen.swift */,
+				8B3D3D972298ED180043B8FE /* MainMenuScene.swift */,
+				8B2CD222229C1731001C132C /* GameTutorialScene.swift */,
+				8B3D3D6C2298E8900043B8FE /* GameScene.swift */,
+				8B3D3D9B2298ED540043B8FE /* GameOverScene.swift */,
 				8B3D3D732298E8910043B8FE /* Assets.xcassets */,
-				8B3D3D752298E8910043B8FE /* LaunchScreen.storyboard */,
 				8B3D3D782298E8910043B8FE /* Info.plist */,
+				8B3D3D812298E8CB0043B8FE /* Font */,
+				8B3D3D822298E8DC0043B8FE /* Sound */,
+				8B3D3D752298E8910043B8FE /* LaunchScreen.storyboard */,
+				8B3D3D702298E8900043B8FE /* Main.storyboard */,
+				8B3D3D6A2298E8900043B8FE /* Actions.sks */,
+				8B3D3D682298E8900043B8FE /* GameScene.sks */,
 			);
 			path = Tapmill;
+			sourceTree = "<group>";
+		};
+		8B3D3D7E2298E8B50043B8FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B3D3D7F2298E8B50043B8FE /* AVFoundation.framework */,
+				4E4EB7F5C739311216B081F6 /* Pods_Tapmill.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B3D3D812298E8CB0043B8FE /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8B3D3D832298E8FA0043B8FE /* PixelSplitter-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8B3D3D822298E8DC0043B8FE /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				8BFC039522AD6AD2002B0736 /* MainMenuAmbience.wav */,
+				8BFC039722AD6AD7002B0736 /* GameOverAmbience.wav */,
+				8B3D3D9D2298EF980043B8FE /* buttonPressSound.wav */,
+				8B3D3DA92298FD2D0043B8FE /* errorSound.wav */,
+				8B942B0922A6BE7B0056B4BA /* explosionSound.wav */,
+				8B3D3D8B2298E92C0043B8FE /* footstepSound.wav */,
+				8B3D3D8A2298E92C0043B8FE /* gameOverSound.wav */,
+				8B3D3D8C2298E92C0043B8FE /* popUpSound.m4a */,
+				8B3D3D882298E92C0043B8FE /* successSound.wav */,
+				8B3D3DA52298F7CE0043B8FE /* swoosh.wav */,
+				8BCFDF7E22AABB8C0038A90A /* talkingBlaBla.wav */,
+				8B3D3D9F2298F3200043B8FE /* thunderShortIntro.mp3 */,
+				8B3D3DA22298F6520043B8FE /* treadmillEngineSound.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		C1A19B77F2324C6ABFB52C7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA08476DFA00D914CB1F9498 /* Pods-Tapmill.debug.xcconfig */,
+				E2DF2C74B7012CC4D46A92C9 /* Pods-Tapmill.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3D3D7B2298E8910043B8FE /* Build configuration list for PBXNativeTarget "Tapmill" */;
 			buildPhases = (
+				8C11325522957483E6B1A9EB /* [CP] Check Pods Manifest.lock */,
 				8B3D3D5F2298E8900043B8FE /* Sources */,
 				8B3D3D602298E8900043B8FE /* Frameworks */,
 				8B3D3D612298E8900043B8FE /* Resources */,
+				4278987CA3F40C927AB38A03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,24 +231,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3D3DA42298F6520043B8FE /* treadmillEngineSound.mp3 in Resources */,
+				8B3D3D922298E92C0043B8FE /* gameOverSound.wav in Resources */,
+				8B3D3DA02298F3200043B8FE /* thunderShortIntro.mp3 in Resources */,
+				8B3D3DAA2298FD2E0043B8FE /* errorSound.wav in Resources */,
+				8B3D3DA62298F7CE0043B8FE /* swoosh.wav in Resources */,
+				8BFC039622AD6AD2002B0736 /* MainMenuAmbience.wav in Resources */,
+				8BFC039822AD6AD7002B0736 /* GameOverAmbience.wav in Resources */,
+				8BCFDF7F22AABB8C0038A90A /* talkingBlaBla.wav in Resources */,
 				8B3D3D722298E8900043B8FE /* Main.storyboard in Resources */,
 				8B3D3D692298E8900043B8FE /* GameScene.sks in Resources */,
+				8B3D3D902298E92C0043B8FE /* successSound.wav in Resources */,
 				8B3D3D742298E8910043B8FE /* Assets.xcassets in Resources */,
+				8B3D3D842298E8FA0043B8FE /* PixelSplitter-Bold.ttf in Resources */,
+				8B3D3D932298E92C0043B8FE /* footstepSound.wav in Resources */,
+				8B942B0A22A6BE7B0056B4BA /* explosionSound.wav in Resources */,
+				8B3D3D9E2298EF980043B8FE /* buttonPressSound.wav in Resources */,
 				8B3D3D772298E8910043B8FE /* LaunchScreen.storyboard in Resources */,
 				8B3D3D6B2298E8900043B8FE /* Actions.sks in Resources */,
+				8B3D3D942298E92C0043B8FE /* popUpSound.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4278987CA3F40C927AB38A03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tapmill/Pods-Tapmill-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tapmill/Pods-Tapmill-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C11325522957483E6B1A9EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tapmill-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B3D3D5F2298E8900043B8FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3D3D982298ED180043B8FE /* MainMenuScene.swift in Sources */,
 				8B3D3D6D2298E8900043B8FE /* GameScene.swift in Sources */,
+				8B3D3D9C2298ED540043B8FE /* GameOverScene.swift in Sources */,
 				8B3D3D6F2298E8900043B8FE /* GameViewController.swift in Sources */,
 				8B3D3D672298E8900043B8FE /* AppDelegate.swift in Sources */,
+				8B2CD223229C1731001C132C /* GameTutorialScene.swift in Sources */,
+				8B3D3D962298ECD60043B8FE /* LoadScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +392,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -280,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,15 +459,18 @@
 		};
 		8B3D3D7C2298E8910043B8FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA08476DFA00D914CB1F9498 /* Pods-Tapmill.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SXM524N2QV;
 				INFOPLIST_FILE = Tapmill/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZyncTech.Tapmill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -310,15 +480,18 @@
 		};
 		8B3D3D7D2298E8910043B8FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2DF2C74B7012CC4D46A92C9 /* Pods-Tapmill.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SXM524N2QV;
 				INFOPLIST_FILE = Tapmill/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZyncTech.Tapmill;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
